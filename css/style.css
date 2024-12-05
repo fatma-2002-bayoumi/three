@@ -1,0 +1,18 @@
+h1.one{font-family: "Pacifico", cursive;position: relative;width: fit-content;}
+h1.one::after{
+    width:100%;
+    background:#FEC260;
+    height: 30%;
+    content: "";
+    position: absolute;
+    bottom:0 ;
+    left: 0;
+    z-index: -1;
+    transition: 2s;
+}
+.f-c{color:#B2AB49 ;}
+h1.one:hover::after{height: 100%;}
+body{background-color:#F7ECDE ;}
+.dots{width: 100%;
+height: 1px;
+border: 1px dotted black;}
